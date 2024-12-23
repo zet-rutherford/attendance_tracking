@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/check_in_screen.dart';
 import 'screens/calendar_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'ProductSans',
       ),
-      home: const HomeScreen(),
+      home: const LoginScreen(),
     );
   }
 }
