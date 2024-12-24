@@ -27,6 +27,7 @@ class _CheckInScreenState extends State<CheckInScreen> {
   }
 
   void _updateTime() {
+    if (!mounted) return;
     setState(() {
       _currentTime = DateFormat('HH:mm').format(DateTime.now());
     });
@@ -137,5 +138,11 @@ class _CheckInScreenState extends State<CheckInScreen> {
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    // Cancel any pending timers or async operations
+    super.dispose();
   }
 }
