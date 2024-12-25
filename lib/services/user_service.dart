@@ -39,4 +39,44 @@ class UserService {
       debugPrint('=========================================================');
     }
   }
+
+  static Future<Map<String, dynamic>> registerFace(String imagePath) async {
+    debugPrint(
+        '================== USER SERVICE - REGISTER FACE ==================');
+    try {
+      final token = await AuthService.getToken();
+      if (token == null) {
+        throw Exception('No authentication token found');
+      }
+
+      final request = http.MultipartRequest(
+        'POST',
+        Uri.parse('${Env.apiUrl}/api/users/register-face'),
+      );
+
+      request.headers.addAll({
+        'Authorization': 'Bearer $token',
+      });
+
+      request.files.add(
+        await http.MultipartFile.fromPath('image', imagePath),
+      );
+
+      final streamedResponse = await request.send();
+      final response = await http.Response.fromStream(streamedResponse);
+
+      debugPrint('Response status: ${response.statusCode}');
+      debugPrint('Response body: ${response.body}');
+
+      if (response.statusCode == 200) {
+        return json.decode(response.body);
+      }
+      throw Exception('Failed to register face');
+    } catch (e) {
+      debugPrint('Error registering face: $e');
+      throw Exception('Error registering face: $e');
+    } finally {
+      debugPrint('=========================================================');
+    }
+  }
 }

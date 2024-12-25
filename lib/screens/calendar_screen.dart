@@ -116,7 +116,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                                 'Face Similarity: ${(record.faceSimilarity * 100).toStringAsFixed(1)}%',
                               ),
                               Text(
-                                'Distance: ${record.location.toStringAsFixed(2)} km',
+                                'Distance: ${record.location.toStringAsFixed(2)} m',
                               ),
                             ],
                           ),

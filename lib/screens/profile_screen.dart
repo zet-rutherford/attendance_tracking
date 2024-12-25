@@ -2,7 +2,9 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import '../services/user_service.dart';
+import 'package:camera/camera.dart';
 import 'login_screen.dart';
+import 'dart:io';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -14,14 +16,22 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
 
   bool _isLoading = false;
+  bool _isCameraActive = false;
+  bool _isProcessing = false;
   bool _hasFaceRegistered = false;
   UserInfo? _userInfo;
+
+  // Camera related variables
+  List<CameraDescription>? cameras;
+  CameraController? _cameraController;
+  File? _capturedImage;
 
   @override
   void initState() {
     super.initState();
     _loadUserInfo();
     _checkFaceStatus();
+    _initCamera();
   }
 
   Future<void> _loadUserInfo() async {
@@ -70,6 +80,73 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Logout failed: $e')),
         );
+      }
+    }
+  }
+
+  Future<void> _initCamera() async {
+    try {
+      cameras = await availableCameras();
+      if (cameras != null && cameras!.isNotEmpty) {
+        // Try to find front camera
+        final frontCamera = cameras!.firstWhere(
+              (camera) => camera.lensDirection == CameraLensDirection.front,
+          orElse: () => cameras!.first,
+        );
+
+        _cameraController = CameraController(
+          frontCamera,
+          ResolutionPreset.medium,
+          enableAudio: false,
+        );
+
+        await _cameraController!.initialize();
+        if (mounted) {
+          setState(() {});
+        }
+      }
+    } catch (e) {
+      debugPrint('Error initializing camera: $e');
+    }
+  }
+
+  Future<void> _captureAndRegisterFace() async {
+    if (_cameraController == null || !_cameraController!.value.isInitialized) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Camera not initialized')),
+      );
+      return;
+    }
+
+    setState(() => _isProcessing = true);
+
+    try {
+      // Capture image
+      final XFile image = await _cameraController!.takePicture();
+      setState(() => _capturedImage = File(image.path));
+
+      // Send to server
+      final response = await UserService.registerFace(image.path);
+
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(response['message'] ?? 'Face registered successfully')),
+        );
+        // Check face status again after registration
+        _checkFaceStatus();
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error: $e')),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          _isProcessing = false;
+          _isCameraActive = false;
+        });
       }
     }
   }
@@ -123,6 +200,40 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isCameraActive && _cameraController?.value.isInitialized == true) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('Register Face'),
+          centerTitle: true,
+        ),
+        body: Stack(
+          alignment: Alignment.center,
+          children: [
+            CameraPreview(_cameraController!),
+            if (_isProcessing)
+              const CircularProgressIndicator(),
+            Positioned(
+              bottom: 20,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(
+                    onPressed: _isProcessing ? null : _captureAndRegisterFace,
+                    child: const Text('Capture Photo'),
+                  ),
+                  const SizedBox(width: 20),
+                  ElevatedButton(
+                    onPressed: () => setState(() => _isCameraActive = false),
+                    child: const Text('Cancel'),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
@@ -177,8 +288,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
               ),
               onTap: _hasFaceRegistered ? null : () {
-                // TODO: Implement face registration
-                debugPrint('Register face tapped');
+                setState(() => _isCameraActive = true);
               },
               enabled: !_hasFaceRegistered,
               trailing: _isLoading ?
@@ -219,5 +329,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    _cameraController?.dispose();
+    super.dispose();
   }
 }

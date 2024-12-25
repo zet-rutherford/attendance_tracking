@@ -280,16 +280,7 @@ class _CheckInScreenState extends State<CheckInScreen> {
                     ),
                   ),
                 ),
-                if (_currentDistanceInMeters > 5000) ...[
-                  const SizedBox(height: 10),
-                  Text(
-                    'Must be within 5km to check in',
-                    style: TextStyle(
-                      color: Colors.red[400],
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
+
                 if (_todayCheckIn != null) ...[
                   const SizedBox(height: 20),
                   Text(
