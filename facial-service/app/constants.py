@@ -1,0 +1,39 @@
+# scope
+FACE_VALIDATION = 'face-analysis:face.recognize'
+IOTAI_VALIDATION = 'iot:ai-camera.access-direct'
+
+FACE_NOT_FOUND='face.not.found'
+USERNAME_NOT_FOUND='username.not.found'
+CANNOT_IDENTIFY='cannot.identify'
+USERNAME_ALREADY_EXISTS='username.already.exists'
+FILE_NAME_EMPTY='file.name.empty'
+ACTIVE = 1
+DEACTIVE = 0
+STATUS_CODE_SUCCCES= 200
+STATUS_CODE_ERROR= 400
+STATUS_CODE_GATEWAY= 504
+STATUS_CODE_IMG_ERROR= 503
+
+LIVE_CLASS_NAME = "live"
+SPOOF_CLASS_NAME = "spoofing"
+
+# check similarity image in video
+DUPLICATE_IMAGE='DUPLICATE_IMAGE'
+DIFFERENT_IMAGE='DIFFERENT_IMAGE'
+TRUE_IMAGE='TRUE_IMAGE'
+INVALID_IMG_SIZE='INVALID_IMG_SIZE'
+
+# face direction
+FRONTAL_DIRECTION = 'FRONTAL_DIRECTION'
+LEFT_DIRECTION = 'LEFT_DIRECTION'
+RIGHT_DIRECTION = 'RIGHT_DIRECTION'
+
+# error code
+FACE_TOO_FAR="Face.Too.Far"
+NOT_ENOUGH_FACE_DIRECTION="Not.Enough.Face.Direction"
+AUTH_SIGNATURE_FALSE = "Invalid.Auth.Signature"
+NO_FACE = "Invalid.Face"
+DECODE_VIDEO_FALSE = "Invalid.Decode.Video"
+VIDEO_INVALID="Video.Invalid"
+LACK_DATA = "Lack.Data"
+EXCEPTION_REQUEST='Exception'
