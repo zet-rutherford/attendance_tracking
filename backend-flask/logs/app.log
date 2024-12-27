@@ -1,0 +1,544 @@
+2024-12-16 10:20:21,518 - app.extensions - DEBUG - Application instance created
+2024-12-16 10:23:17,704 - app.extensions - DEBUG - Starting application creation
+2024-12-16 10:23:17,705 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 10:23:17,705 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 10:23:17,705 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 10:23:17,716 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 10:23:17,717 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 10:23:17,718 - app.extensions - DEBUG - Creating database tables
+2024-12-16 10:23:17,727 - app.extensions - DEBUG - Extensions registered
+2024-12-16 10:23:17,728 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 10:23:17,728 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 10:23:17,728 - app.extensions - DEBUG - CORS enabled
+2024-12-16 11:31:57,952 - app.extensions - DEBUG - Starting application creation
+2024-12-16 11:31:57,953 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 11:31:57,953 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 11:31:57,953 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 11:31:57,963 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 11:31:57,964 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 11:31:57,964 - app.extensions - DEBUG - Creating database tables
+2024-12-16 11:31:57,974 - app.extensions - DEBUG - Extensions registered
+2024-12-16 11:31:57,975 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 11:31:57,975 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 11:31:57,975 - app.extensions - DEBUG - CORS enabled
+2024-12-16 11:47:28,775 - app.extensions - DEBUG - Starting application creation
+2024-12-16 11:47:28,787 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 11:47:28,787 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 11:47:28,787 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 11:47:28,799 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 11:47:28,801 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 11:47:28,801 - app.extensions - DEBUG - Creating database tables
+2024-12-16 11:47:28,815 - app.extensions - DEBUG - Extensions registered
+2024-12-16 11:55:47,480 - app.extensions - DEBUG - Starting application creation
+2024-12-16 11:55:47,481 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 11:55:47,481 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 11:55:47,481 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 11:55:47,495 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 11:55:47,497 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 11:55:47,497 - app.extensions - DEBUG - Creating database tables
+2024-12-16 11:55:47,511 - app.extensions - DEBUG - Extensions registered
+2024-12-16 11:57:46,201 - app.extensions - DEBUG - Starting application creation
+2024-12-16 11:57:46,202 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 11:57:46,202 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 11:57:46,202 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 11:57:46,211 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 11:57:46,212 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 11:57:46,213 - app.extensions - DEBUG - Creating database tables
+2024-12-16 11:57:46,225 - app.extensions - DEBUG - Extensions registered
+2024-12-16 14:33:34,293 - app.extensions - DEBUG - Starting application creation
+2024-12-16 14:33:34,294 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 14:33:34,294 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 14:33:34,294 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 14:33:34,314 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 14:33:34,315 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 14:33:34,315 - app.extensions - DEBUG - Creating database tables
+2024-12-16 14:33:34,325 - app.extensions - DEBUG - Extensions registered
+2024-12-16 14:33:34,331 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 14:33:34,331 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 14:33:34,331 - app.extensions - DEBUG - CORS enabled
+2024-12-16 14:33:42,996 - app.extensions - ERROR - Error in register: When initializing mapper Mapper[User(users)], expression 'FaceFeature' failed to locate a name ('FaceFeature'). If this is a class name, consider adding this relationship() to the <class 'app.models.user.User'> class after both dependent classes have been defined.
+2024-12-16 14:57:16,347 - app.extensions - DEBUG - Starting application creation
+2024-12-16 14:57:16,348 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 14:57:16,348 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 14:57:16,348 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 14:57:16,355 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 14:57:16,356 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 14:57:16,356 - app.extensions - DEBUG - Creating database tables
+2024-12-16 14:57:16,366 - app.extensions - DEBUG - Extensions registered
+2024-12-16 14:57:16,507 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 14:57:16,507 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 14:57:16,507 - app.extensions - DEBUG - CORS enabled
+2024-12-16 14:57:16,996 - app.extensions - DEBUG - Starting application creation
+2024-12-16 14:57:16,998 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 14:57:16,998 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 14:57:16,998 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 14:57:17,013 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 14:57:17,015 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 14:57:17,015 - app.extensions - DEBUG - Creating database tables
+2024-12-16 14:57:17,028 - app.extensions - DEBUG - Extensions registered
+2024-12-16 14:57:17,095 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 14:57:17,096 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 14:57:17,096 - app.extensions - DEBUG - CORS enabled
+2024-12-16 14:57:17,848 - app.extensions - DEBUG - Starting application creation
+2024-12-16 14:57:17,850 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 14:57:17,850 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 14:57:17,850 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 14:57:17,859 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 14:57:17,860 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 14:57:17,861 - app.extensions - DEBUG - Creating database tables
+2024-12-16 14:57:17,871 - app.extensions - DEBUG - Extensions registered
+2024-12-16 14:57:17,939 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 14:57:17,939 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 14:57:17,939 - app.extensions - DEBUG - CORS enabled
+2024-12-16 14:57:33,259 - app.extensions - DEBUG - Starting application creation
+2024-12-16 14:57:33,260 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 14:57:33,260 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 14:57:33,260 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 14:57:33,269 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 14:57:33,270 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 14:57:33,270 - app.extensions - DEBUG - Creating database tables
+2024-12-16 14:57:33,280 - app.extensions - DEBUG - Extensions registered
+2024-12-16 14:57:33,352 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 14:57:33,353 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 14:57:33,353 - app.extensions - DEBUG - CORS enabled
+2024-12-16 16:58:32,975 - app.extensions - DEBUG - Starting application creation
+2024-12-16 16:58:32,976 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 16:58:32,976 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 16:58:32,976 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 16:58:32,998 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 16:58:32,999 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 16:58:32,999 - app.extensions - DEBUG - Creating database tables
+2024-12-16 16:58:33,020 - app.extensions - DEBUG - Extensions registered
+2024-12-16 16:58:33,124 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 16:58:33,124 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 16:58:33,124 - app.extensions - DEBUG - CORS enabled
+2024-12-16 17:06:33,580 - app.extensions - DEBUG - Starting application creation
+2024-12-16 17:06:33,581 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 17:06:33,581 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 17:06:33,581 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 17:06:33,593 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 17:06:33,594 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 17:06:33,594 - app.extensions - DEBUG - Creating database tables
+2024-12-16 17:06:33,606 - app.extensions - DEBUG - Extensions registered
+2024-12-16 17:06:33,762 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 17:06:33,762 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 17:06:33,763 - app.extensions - DEBUG - CORS enabled
+2024-12-16 21:23:15,383 - app.extensions - DEBUG - Starting application creation
+2024-12-16 21:23:15,384 - app.extensions - DEBUG - Flask app instance created
+2024-12-16 21:23:15,385 - app.extensions - DEBUG - Configuration loaded
+2024-12-16 21:23:15,385 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-16 21:23:15,401 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-16 21:23:15,403 - app.extensions - DEBUG - Initializing JWT
+2024-12-16 21:23:15,403 - app.extensions - DEBUG - Creating database tables
+2024-12-16 21:23:15,415 - app.extensions - DEBUG - Extensions registered
+2024-12-16 21:23:15,602 - app.extensions - DEBUG - Blueprints registered
+2024-12-16 21:23:15,602 - app.extensions - DEBUG - Error handlers registered
+2024-12-16 21:23:15,603 - app.extensions - DEBUG - CORS enabled
+2024-12-17 09:54:06,079 - app.extensions - DEBUG - Starting application creation
+2024-12-17 09:54:06,080 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 09:54:06,080 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 09:54:06,080 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 09:54:06,100 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 09:54:06,101 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 09:54:06,101 - app.extensions - DEBUG - Creating database tables
+2024-12-17 09:54:06,114 - app.extensions - DEBUG - Extensions registered
+2024-12-17 09:54:06,717 - app.extensions - DEBUG - Starting application creation
+2024-12-17 09:54:06,718 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 09:54:06,718 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 09:54:06,718 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 09:54:06,725 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 09:54:06,726 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 09:54:06,727 - app.extensions - DEBUG - Creating database tables
+2024-12-17 09:54:06,735 - app.extensions - DEBUG - Extensions registered
+2024-12-17 09:54:07,242 - app.extensions - DEBUG - Starting application creation
+2024-12-17 09:54:07,243 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 09:54:07,243 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 09:54:07,243 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 09:54:07,252 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 09:54:07,253 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 09:54:07,253 - app.extensions - DEBUG - Creating database tables
+2024-12-17 09:54:07,264 - app.extensions - DEBUG - Extensions registered
+2024-12-17 09:56:18,370 - app.extensions - DEBUG - Starting application creation
+2024-12-17 09:56:18,371 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 09:56:18,371 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 09:56:18,371 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 09:56:18,378 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 09:56:18,379 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 09:56:18,379 - app.extensions - DEBUG - Creating database tables
+2024-12-17 09:56:18,388 - app.extensions - DEBUG - Extensions registered
+2024-12-17 09:56:18,493 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 09:56:18,496 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 09:56:18,496 - app.extensions - DEBUG - CORS enabled
+2024-12-17 09:56:18,912 - app.extensions - DEBUG - Starting application creation
+2024-12-17 09:56:18,913 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 09:56:18,913 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 09:56:18,913 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 09:56:18,920 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 09:56:18,921 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 09:56:18,921 - app.extensions - DEBUG - Creating database tables
+2024-12-17 09:56:18,930 - app.extensions - DEBUG - Extensions registered
+2024-12-17 09:56:19,020 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 09:56:19,020 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 09:56:19,020 - app.extensions - DEBUG - CORS enabled
+2024-12-17 09:56:19,554 - app.extensions - DEBUG - Starting application creation
+2024-12-17 09:56:19,554 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 09:56:19,555 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 09:56:19,555 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 09:56:19,562 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 09:56:19,563 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 09:56:19,563 - app.extensions - DEBUG - Creating database tables
+2024-12-17 09:56:19,572 - app.extensions - DEBUG - Extensions registered
+2024-12-17 09:56:19,665 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 09:56:19,665 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 09:56:19,665 - app.extensions - DEBUG - CORS enabled
+2024-12-17 10:02:15,149 - app.extensions - DEBUG - Starting application creation
+2024-12-17 10:02:15,150 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 10:02:15,150 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 10:02:15,150 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 10:02:15,159 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 10:02:15,160 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 10:02:15,160 - app.extensions - DEBUG - Creating database tables
+2024-12-17 10:02:15,169 - app.extensions - DEBUG - Extensions registered
+2024-12-17 10:02:15,254 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 10:02:15,254 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 10:02:15,254 - app.extensions - DEBUG - CORS enabled
+2024-12-17 10:39:42,030 - app.extensions - DEBUG - Starting application creation
+2024-12-17 10:39:42,032 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 10:39:42,032 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 10:39:42,032 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 10:39:42,045 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 10:39:42,046 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 10:39:42,046 - app.extensions - DEBUG - Creating database tables
+2024-12-17 10:39:42,054 - app.extensions - DEBUG - Extensions registered
+2024-12-17 10:39:42,200 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 10:39:42,200 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 10:39:42,200 - app.extensions - DEBUG - CORS enabled
+2024-12-17 11:09:21,914 - app.extensions - DEBUG - Starting application creation
+2024-12-17 11:09:21,915 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 11:09:21,915 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 11:09:21,915 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 11:09:21,922 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 11:09:21,923 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 11:09:21,924 - app.extensions - DEBUG - Creating database tables
+2024-12-17 11:09:21,932 - app.extensions - DEBUG - Extensions registered
+2024-12-17 11:09:22,016 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 11:09:22,016 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 11:09:22,016 - app.extensions - DEBUG - CORS enabled
+2024-12-17 11:23:15,044 - app.extensions - DEBUG - Starting application creation
+2024-12-17 11:23:15,045 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 11:23:15,045 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 11:23:15,045 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 11:23:15,053 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 11:23:15,054 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 11:23:15,054 - app.extensions - DEBUG - Creating database tables
+2024-12-17 11:23:15,064 - app.extensions - DEBUG - Extensions registered
+2024-12-17 11:23:15,149 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 11:23:15,149 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 11:23:15,149 - app.extensions - DEBUG - CORS enabled
+2024-12-17 11:23:36,105 - app.extensions - ERROR - Attendance processing error: Already checked out today
+2024-12-17 11:23:57,348 - app.extensions - ERROR - Attendance processing error: Must check in before checking out
+2024-12-17 11:30:39,407 - app.extensions - DEBUG - Starting application creation
+2024-12-17 11:30:39,408 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 11:30:39,408 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 11:30:39,408 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 11:30:39,416 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 11:30:39,417 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 11:30:39,418 - app.extensions - DEBUG - Creating database tables
+2024-12-17 11:30:39,426 - app.extensions - DEBUG - Extensions registered
+2024-12-17 11:30:39,507 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 11:30:39,507 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 11:30:39,507 - app.extensions - DEBUG - CORS enabled
+2024-12-17 11:31:06,318 - app.extensions - ERROR - Error in get_daily_records: name 'datetime' is not defined
+2024-12-17 11:32:01,420 - app.extensions - DEBUG - Starting application creation
+2024-12-17 11:32:01,421 - app.extensions - DEBUG - Flask app instance created
+2024-12-17 11:32:01,421 - app.extensions - DEBUG - Configuration loaded
+2024-12-17 11:32:01,421 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-17 11:32:01,428 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-17 11:32:01,429 - app.extensions - DEBUG - Initializing JWT
+2024-12-17 11:32:01,429 - app.extensions - DEBUG - Creating database tables
+2024-12-17 11:32:01,437 - app.extensions - DEBUG - Extensions registered
+2024-12-17 11:32:01,519 - app.extensions - DEBUG - Blueprints registered
+2024-12-17 11:32:01,519 - app.extensions - DEBUG - Error handlers registered
+2024-12-17 11:32:01,519 - app.extensions - DEBUG - CORS enabled
+2024-12-20 16:01:28,002 - app.extensions - DEBUG - Starting application creation
+2024-12-20 16:01:28,004 - app.extensions - DEBUG - Flask app instance created
+2024-12-20 16:01:28,004 - app.extensions - DEBUG - Configuration loaded
+2024-12-20 16:01:28,004 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-20 16:01:28,028 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-20 16:01:28,030 - app.extensions - DEBUG - Initializing JWT
+2024-12-20 16:01:28,031 - app.extensions - DEBUG - Creating database tables
+2024-12-20 16:01:28,068 - app.extensions - DEBUG - Extensions registered
+2024-12-20 16:01:28,317 - app.extensions - DEBUG - Blueprints registered
+2024-12-20 16:01:28,317 - app.extensions - DEBUG - Error handlers registered
+2024-12-20 16:01:28,318 - app.extensions - DEBUG - CORS enabled
+2024-12-23 10:10:55,446 - app.extensions - DEBUG - Starting application creation
+2024-12-23 10:10:55,447 - app.extensions - DEBUG - Flask app instance created
+2024-12-23 10:10:55,447 - app.extensions - DEBUG - Configuration loaded
+2024-12-23 10:10:55,448 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-23 10:10:55,468 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-23 10:10:55,469 - app.extensions - DEBUG - Initializing JWT
+2024-12-23 10:10:55,469 - app.extensions - DEBUG - Creating database tables
+2024-12-23 10:10:55,496 - app.extensions - DEBUG - Extensions registered
+2024-12-23 10:10:55,630 - app.extensions - DEBUG - Blueprints registered
+2024-12-23 10:10:55,630 - app.extensions - DEBUG - Error handlers registered
+2024-12-23 10:10:55,630 - app.extensions - DEBUG - CORS enabled
+2024-12-23 17:50:37,989 - app.extensions - DEBUG - Starting application creation
+2024-12-23 17:50:37,991 - app.extensions - DEBUG - Flask app instance created
+2024-12-23 17:50:37,991 - app.extensions - DEBUG - Configuration loaded
+2024-12-23 17:50:37,991 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-23 17:50:38,009 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-23 17:50:38,010 - app.extensions - DEBUG - Initializing JWT
+2024-12-23 17:50:38,010 - app.extensions - DEBUG - Creating database tables
+2024-12-23 17:50:38,033 - app.extensions - DEBUG - Extensions registered
+2024-12-23 17:50:38,166 - app.extensions - DEBUG - Blueprints registered
+2024-12-23 17:50:38,167 - app.extensions - DEBUG - Error handlers registered
+2024-12-23 17:50:38,167 - app.extensions - DEBUG - CORS enabled
+2024-12-24 08:33:43,449 - app.extensions - DEBUG - Starting application creation
+2024-12-24 08:33:43,449 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 08:33:43,450 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 08:33:43,450 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 08:33:43,463 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 08:33:43,465 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 08:33:43,465 - app.extensions - DEBUG - Creating database tables
+2024-12-24 08:33:43,475 - app.extensions - DEBUG - Extensions registered
+2024-12-24 08:33:43,625 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 08:33:43,625 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 08:33:43,625 - app.extensions - DEBUG - CORS enabled
+2024-12-24 09:39:33,701 - app.extensions - DEBUG - Starting application creation
+2024-12-24 09:39:33,702 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 09:39:33,702 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 09:39:33,702 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 09:39:33,723 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 09:39:33,724 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 09:39:33,724 - app.extensions - DEBUG - Creating database tables
+2024-12-24 09:39:33,750 - app.extensions - DEBUG - Extensions registered
+2024-12-24 09:39:33,888 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 09:39:33,889 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 09:39:33,889 - app.extensions - DEBUG - CORS enabled
+2024-12-24 10:33:35,819 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:33:35,821 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:33:35,821 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:33:35,821 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:33:35,843 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:33:35,844 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:33:35,844 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:33:35,864 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:34:31,443 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:34:31,444 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:34:31,444 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:34:31,444 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:34:31,451 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:34:31,452 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:34:31,452 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:34:31,462 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:34:47,063 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:34:47,064 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:34:47,064 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:34:47,064 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:34:47,071 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:34:47,072 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:34:47,073 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:34:47,081 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:36:21,016 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:36:21,016 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:36:21,016 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:36:21,017 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:36:21,024 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:36:21,025 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:36:21,026 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:36:21,035 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:36:21,118 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 10:36:21,118 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 10:36:21,118 - app.extensions - DEBUG - CORS enabled
+2024-12-24 10:37:49,846 - app.extensions - ERROR - Error in register_face: get_active_face_feature() missing 1 required positional argument: 'user_id'
+2024-12-24 10:39:16,951 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:39:16,952 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:39:16,952 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:39:16,952 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:39:16,962 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:39:16,964 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:39:16,964 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:39:16,973 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:39:17,121 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 10:39:17,122 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 10:39:17,122 - app.extensions - DEBUG - CORS enabled
+2024-12-24 10:39:20,707 - app.extensions - ERROR - Error in register_face: Object of type FaceFeature is not JSON serializable
+2024-12-24 10:40:46,885 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:40:46,885 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:40:46,885 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:40:46,886 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:40:46,893 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:40:46,894 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:40:46,894 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:40:46,903 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:40:47,000 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 10:40:47,000 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 10:40:47,000 - app.extensions - DEBUG - CORS enabled
+2024-12-24 10:42:44,109 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:42:44,110 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:42:44,110 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:42:44,110 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:42:44,123 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:42:44,124 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:42:44,124 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:42:44,132 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:42:44,224 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 10:42:44,224 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 10:42:44,225 - app.extensions - DEBUG - CORS enabled
+2024-12-24 10:43:06,715 - app.extensions - DEBUG - Starting application creation
+2024-12-24 10:43:06,716 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 10:43:06,716 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 10:43:06,716 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 10:43:06,726 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 10:43:06,727 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 10:43:06,727 - app.extensions - DEBUG - Creating database tables
+2024-12-24 10:43:06,738 - app.extensions - DEBUG - Extensions registered
+2024-12-24 10:43:06,862 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 10:43:06,862 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 10:43:06,863 - app.extensions - DEBUG - CORS enabled
+2024-12-24 11:13:56,879 - app.extensions - DEBUG - Starting application creation
+2024-12-24 11:13:56,880 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 11:13:56,880 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 11:13:56,880 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 11:13:56,901 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 11:13:56,902 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 11:13:56,903 - app.extensions - DEBUG - Creating database tables
+2024-12-24 11:13:56,928 - app.extensions - DEBUG - Extensions registered
+2024-12-24 11:13:57,124 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 11:13:57,124 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 11:13:57,124 - app.extensions - DEBUG - CORS enabled
+2024-12-24 14:46:18,934 - app.extensions - DEBUG - Starting application creation
+2024-12-24 14:46:18,935 - app.extensions - DEBUG - Flask app instance created
+2024-12-24 14:46:18,935 - app.extensions - DEBUG - Configuration loaded
+2024-12-24 14:46:18,935 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-24 14:46:18,958 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-24 14:46:18,960 - app.extensions - DEBUG - Initializing JWT
+2024-12-24 14:46:18,960 - app.extensions - DEBUG - Creating database tables
+2024-12-24 14:46:18,973 - app.extensions - DEBUG - Extensions registered
+2024-12-24 14:46:19,132 - app.extensions - DEBUG - Blueprints registered
+2024-12-24 14:46:19,132 - app.extensions - DEBUG - Error handlers registered
+2024-12-24 14:46:19,132 - app.extensions - DEBUG - CORS enabled
+2024-12-25 14:16:26,184 - app.extensions - DEBUG - Starting application creation
+2024-12-25 14:16:26,185 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 14:16:26,185 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 14:16:26,185 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 14:16:26,206 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 14:16:26,207 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 14:16:26,207 - app.extensions - DEBUG - Creating database tables
+2024-12-25 14:16:26,246 - app.extensions - DEBUG - Extensions registered
+2024-12-25 14:16:26,409 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 14:16:26,409 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 14:16:26,409 - app.extensions - DEBUG - CORS enabled
+2024-12-25 15:05:17,628 - app.extensions - DEBUG - Starting application creation
+2024-12-25 15:05:17,629 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 15:05:17,629 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 15:05:17,629 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 15:05:17,648 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 15:05:17,649 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 15:05:17,649 - app.extensions - DEBUG - Creating database tables
+2024-12-25 15:05:17,676 - app.extensions - DEBUG - Extensions registered
+2024-12-25 15:05:17,865 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 15:05:17,865 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 15:05:17,865 - app.extensions - DEBUG - CORS enabled
+2024-12-25 15:05:29,992 - app.extensions - DEBUG - request:
+2024-12-25 15:05:46,815 - app.extensions - DEBUG - request:
+2024-12-25 15:06:01,258 - app.extensions - DEBUG - request:
+2024-12-25 15:09:11,616 - app.extensions - DEBUG - request:
+2024-12-25 15:30:47,459 - app.extensions - DEBUG - request:
+2024-12-25 15:30:48,550 - app.extensions - ERROR - Attendance processing error: Already checked in today
+2024-12-25 16:29:10,390 - app.extensions - ERROR - Attendance processing error: Already checked out today
+2024-12-25 16:33:21,374 - app.extensions - DEBUG - request:
+2024-12-25 16:45:55,956 - app.extensions - ERROR - Attendance processing error: Already checked out today
+2024-12-25 16:47:20,836 - app.extensions - DEBUG - request:
+2024-12-25 16:54:17,089 - app.extensions - DEBUG - request:
+2024-12-25 16:54:19,977 - app.extensions - ERROR - Attendance processing error: Already checked in today
+2024-12-25 16:55:05,515 - app.extensions - DEBUG - request:
+2024-12-25 16:56:29,108 - app.extensions - DEBUG - request:
+2024-12-25 16:56:30,556 - app.extensions - ERROR - Attendance processing error: Already checked in today
+2024-12-25 16:56:50,881 - app.extensions - DEBUG - request:
+2024-12-25 17:10:32,300 - app.extensions - DEBUG - request:
+2024-12-25 17:12:20,895 - app.extensions - DEBUG - request:
+2024-12-25 17:13:27,636 - app.extensions - DEBUG - Starting application creation
+2024-12-25 17:13:27,637 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 17:13:27,637 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 17:13:27,637 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 17:13:27,653 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 17:13:27,654 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 17:13:27,654 - app.extensions - DEBUG - Creating database tables
+2024-12-25 17:13:27,671 - app.extensions - DEBUG - Extensions registered
+2024-12-25 17:13:27,803 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 17:13:27,803 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 17:13:27,804 - app.extensions - DEBUG - CORS enabled
+2024-12-25 17:14:39,612 - app.extensions - DEBUG - Starting application creation
+2024-12-25 17:14:39,613 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 17:14:39,613 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 17:14:39,613 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 17:14:39,622 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 17:14:39,623 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 17:14:39,623 - app.extensions - DEBUG - Creating database tables
+2024-12-25 17:14:39,645 - app.extensions - DEBUG - Extensions registered
+2024-12-25 17:14:39,731 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 17:14:39,731 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 17:14:39,731 - app.extensions - DEBUG - CORS enabled
+2024-12-25 17:15:30,424 - app.extensions - ERROR - Attendance processing error: Already checked in today
+2024-12-25 17:16:12,082 - app.extensions - ERROR - Attendance processing error: Already checked in today
+2024-12-25 17:16:46,031 - app.extensions - DEBUG - Starting application creation
+2024-12-25 17:16:46,032 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 17:16:46,032 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 17:16:46,032 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 17:16:46,040 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 17:16:46,041 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 17:16:46,041 - app.extensions - DEBUG - Creating database tables
+2024-12-25 17:16:46,051 - app.extensions - DEBUG - Extensions registered
+2024-12-25 17:16:46,156 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 17:16:46,156 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 17:16:46,157 - app.extensions - DEBUG - CORS enabled
+2024-12-25 17:21:50,364 - app.extensions - DEBUG - Starting application creation
+2024-12-25 17:21:50,365 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 17:21:50,365 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 17:21:50,365 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 17:21:50,375 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 17:21:50,377 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 17:21:50,377 - app.extensions - DEBUG - Creating database tables
+2024-12-25 17:21:50,385 - app.extensions - DEBUG - Extensions registered
+2024-12-25 17:21:50,517 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 17:21:50,517 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 17:21:50,518 - app.extensions - DEBUG - CORS enabled
+2024-12-25 17:57:04,881 - app.extensions - ERROR - Attendance processing error: Already checked in today
+2024-12-25 17:57:48,192 - app.extensions - DEBUG - Starting application creation
+2024-12-25 17:57:48,194 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 17:57:48,194 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 17:57:48,194 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 17:57:48,211 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 17:57:48,213 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 17:57:48,213 - app.extensions - DEBUG - Creating database tables
+2024-12-25 17:57:48,236 - app.extensions - DEBUG - Extensions registered
+2024-12-25 17:57:48,376 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 17:57:48,377 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 17:57:48,377 - app.extensions - DEBUG - CORS enabled
+2024-12-25 21:18:45,813 - app.extensions - DEBUG - Starting application creation
+2024-12-25 21:18:45,814 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 21:18:45,814 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 21:18:45,814 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 21:18:45,833 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 21:18:45,834 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 21:18:45,834 - app.extensions - DEBUG - Creating database tables
+2024-12-25 21:18:45,856 - app.extensions - DEBUG - Extensions registered
+2024-12-25 21:18:46,038 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 21:18:46,038 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 21:18:46,038 - app.extensions - DEBUG - CORS enabled
+2024-12-25 21:38:29,013 - app.extensions - DEBUG - Starting application creation
+2024-12-25 21:38:29,014 - app.extensions - DEBUG - Flask app instance created
+2024-12-25 21:38:29,014 - app.extensions - DEBUG - Configuration loaded
+2024-12-25 21:38:29,014 - app.extensions - DEBUG - Initializing SQLAlchemy
+2024-12-25 21:38:29,021 - app.extensions - DEBUG - Initializing Flask-Migrate
+2024-12-25 21:38:29,022 - app.extensions - DEBUG - Initializing JWT
+2024-12-25 21:38:29,023 - app.extensions - DEBUG - Creating database tables
+2024-12-25 21:38:29,042 - app.extensions - DEBUG - Extensions registered
+2024-12-25 21:38:29,148 - app.extensions - DEBUG - Blueprints registered
+2024-12-25 21:38:29,148 - app.extensions - DEBUG - Error handlers registered
+2024-12-25 21:38:29,148 - app.extensions - DEBUG - CORS enabled
+2024-12-25 21:49:41,897 - app.extensions - ERROR - Spoofing check error: 400 Client Error: BAD REQUEST for url: http://0.0.0.0:8888/facial-service/detect-spoofing-image
+2024-12-25 21:49:41,898 - app.extensions - ERROR - Face verification error: 400 Client Error: BAD REQUEST for url: http://0.0.0.0:8888/facial-service/detect-spoofing-image
+2024-12-25 21:49:41,898 - app.extensions - ERROR - Attendance processing error: 400 Client Error: BAD REQUEST for url: http://0.0.0.0:8888/facial-service/detect-spoofing-image
+2024-12-25 21:49:41,898 - app.extensions - ERROR - Failed to communicate with facial service: 400 Client Error: BAD REQUEST for url: http://0.0.0.0:8888/facial-service/detect-spoofing-image
