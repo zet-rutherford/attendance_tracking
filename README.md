@@ -90,15 +90,6 @@ ANTI_SPOOFING_THRESHOLD=0.8
 FACE_MATCH_THRESHOLD=0.7
 ```
 
-### Mobile App Configuration
-Update the `lib/config/app_config.dart` file with your server URLs:
-```dart
-class AppConfig {
-  static const String BACKEND_URL = 'http://your-backend-url:5000';
-  static const String FACIAL_SERVICE_URL = 'http://your-facial-service:5001';
-}
-```
-
 ## Screenshots
 <div align="center">
 <table>
