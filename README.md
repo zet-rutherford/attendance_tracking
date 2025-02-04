@@ -82,14 +82,6 @@ DB_USER=your_username
 DB_PASSWORD=your_password
 ```
 
-### Facial Service Configuration
-Create a `.env` file in the `facial-service` directory:
-```env
-MODEL_PATH=./models
-ANTI_SPOOFING_THRESHOLD=0.8
-FACE_MATCH_THRESHOLD=0.7
-```
-
 ## Screenshots
 <div align="center">
 <table>
